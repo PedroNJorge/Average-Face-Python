@@ -1,5 +1,6 @@
 import numpy as np
 
+
 def generateAverageFace(warped_imgs):
     """
     Generates the average face by averaging the pixel intensities of the warped images.

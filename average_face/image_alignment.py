@@ -1,6 +1,7 @@
 import cv2
 import numpy as np
 
+
 def alignImages(normalized_imgs, delaunay_indices, avg_points, img_dim=600):
     """
     Aligns images by applying Delaunay triangulation to each image's landmarks.

@@ -8,7 +8,7 @@ GREEN = (0, 255, 0)
 def drawLandmarks(img_lst, radius):
     """
     Display on screen the images with it's landmarks drawn on it
-    
+
     Args:
       img_lst (img, landmarks):
           img (ndarray (width, height, 3)): Image

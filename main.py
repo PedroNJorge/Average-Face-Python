@@ -7,7 +7,6 @@ from average_face import loadImages
 from average_face import normalizeImage
 
 import cv2
-import numpy as np
 
 
 def main():
@@ -44,6 +43,7 @@ def main():
     cv2.imshow("Average Face", final_img)
     cv2.waitKey(0)
     cv2.destroyAllWindows()
+
 
 if __name__ == "__main__":
     main()
