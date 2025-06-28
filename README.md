@@ -1,4 +1,4 @@
-# Average-Face-Python
+# Average Face Computation in Python
 This project generates an average face from a given set of images by detecting facial landmarks, aligning features, and blending the images using Delaunay Triangulation.
 
 # **Import Libraries**
